@@ -5,10 +5,6 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
 
-        String str = String.valueOf(new StringBuffer(1000000));
-
-        str = a;
-
-        System.out.println(str);
+        System.out.println(a);
     }
 }
