@@ -8,11 +8,9 @@ public class Solution {
 
         for(Character c : a.toCharArray()){
             if(Character.isUpperCase(c)){
-                //stack.push(Character.toLowerCase(c));
                 answer += Character.toLowerCase(c);
             }
             else if(Character.isLowerCase(c)){
-                //stack.push(Character.toUpperCase(c));
                 answer += Character.toUpperCase(c);
             }
         } 
